@@ -1,0 +1,214 @@
+body {
+    background: url(3.png);
+    color: white;
+    font-family:'Times New Roman';
+    background-size: cover;
+}
+
+.kotak_login{
+    width: 300px;
+    background: rgb(208, 165, 172);
+    margin: 100px auto;
+    padding: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px -10px rgb(0, 0, 0);
+}
+
+.sign-btn{
+    background-color: #c4b6bd;
+    padding: 10px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px -10px rgb(0, 0, 0);
+}
+
+.sign-btn:hover {
+    background-color: #ac8d9b;
+    padding: 10px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px -10px rgb(0, 0, 0);
+  }
+
+.form_login{
+    /*ngebuat lebar form nya penuh*/
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+.tombol_login{
+    background: rgba(147, 175, 164, 0.932);
+    color: white;
+    font-size: 12pt;
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+}
+
+.menu{
+    margin: 200px auto;
+    display:contents;
+    height: 45px;
+    background-color: rgba(199, 215, 177, 0.784);
+}
+
+#navigasi{
+    position:fixed;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-position: outside;
+    line-height: 30px;
+}
+
+#navigasi a {
+    display: block;
+    padding: 8px 16px;
+    background-color: rgba(199, 215, 177, 0.784);
+    color: white;
+    text-decoration: none;
+}
+
+#navigasi a:hover {
+    background-color: rgba(199, 215, 177, 0.784);
+}
+
+#navigasi li {
+    position: relative;
+    float: left;
+}
+
+#navigasi ul {
+    position: relative;
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+#navigasi li ul a {
+    width: 12em;
+    height: auto;
+    float: left;
+}
+
+#navigasi li:hover ul {
+    display: block;
+    height: auto;
+    width: 12cm;
+} 
+
+* {
+    margin: 0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(246, 213, 222);
+    font-family: 'Helvetica';
+    color: rgb(0, 0, 0);
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background: rgb(208, 165, 172);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.logo{
+    font-size: 50px;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.127);
+}
+
+.humburger{
+    display: none;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li a{
+    display: block;
+    color: #fefefe;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+}
+
+.nav-bar ul li a:hover{
+    color: #11101b;
+    background: #fefefe;
+}
+
+.nav-bar ul li a.active {
+     color: #11101b;
+     background: #fefefe;
+}
+
+@media only screen and (max-width: 1320px){
+    header{
+        padding:0 50px;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    header{
+        padding:0 30px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .hamburger{
+        padding:block;
+        cursor:pointer;
+    }
+    .hamburger .line{
+        width:30px;
+        height: 3px;
+        background: #fefefe;
+        margin: 6px 0;
+    }
+    .nav-bar{
+        height: 0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: rgb(246, 213, 222);
+        transition: 0.2s;
+        overflow: hidden;
+    }
+    .nav-bar.active{
+        height: 450px;
+    }
+    .nav-bar ul {
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+    .nav-bar.active ul {
+        opacity: 1;
+    }
+    .nav-bar ul li a {
+        margin-bottom: 12px;
+    }
+}

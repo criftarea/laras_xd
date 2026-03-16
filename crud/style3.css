@@ -1,0 +1,48 @@
+body {
+    background: url(7dbf2340-eff0-11eb-b57f-c2d8a8a51bc9.webp);
+    font-family: Verdana;
+    font-size: 15px;
+    background-size: cover;
+}
+
+.tulisan_login {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.kotak_login{
+    width: 200px;
+    background: rgb(112, 27, 38);
+    margin: 150px auto;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+
+label{
+    font-size: 15px;
+}
+
+.form_login{
+    /*ngebuat lebar form nya penuh*/
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.tombol_login{
+    background: rgb(116, 85, 90);
+    color: white;
+    font-size: 12pt;
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+}
+
+.judul{
+    text-align: center;
+    font-family: Lucida;
+}

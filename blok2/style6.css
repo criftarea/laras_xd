@@ -1,0 +1,58 @@
+body {
+    background: url(89342fd397c7410024fc3f1811c558fa.jpg);
+    font-family:'Times New Roman';
+    background-size: cover;
+}
+
+.kotak_login{
+    width: 300px;
+    background: rgba(167, 219, 236, 0.602);
+    margin: 150px auto;
+    padding: 30px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+}
+
+.tombol_login{
+    background: rgba(104, 114, 120, 0.541);
+    color: rgb(0, 0, 0);
+    font-size: 12pt;
+    width: 50%;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
+
+#navigasi{
+    position:center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-position: outside;
+    line-height: 30px;
+}
+
+#navigasi a {
+    display: block;
+    padding: 8px 16px;
+    background-color: rgba(142, 143, 145, 0.683);
+    color: black;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    width: 90%;
+
+}
+
+.form_login{
+    /*ngebuat lebar form nya penuh*/
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+

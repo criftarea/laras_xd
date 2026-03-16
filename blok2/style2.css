@@ -1,0 +1,75 @@
+body {
+    background: url(32d88701e4a24cfa9b040d15b158a84b.jpg);
+    font-family:'Times New Roman';
+    background-size: cover;
+}
+
+.kotak_login{
+    width: 1150px;
+    background: rgba(240, 216, 216, 0.869);
+    margin: 150px auto;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+
+.gedein{
+    transform: scale(1.0);
+}
+
+.gedeincari{
+    transform: scale(1.0) translate(-10%,0%);
+}
+
+.menu{
+    margin: 200px auto;
+    display:contents;
+    height: 45px;
+    background-color: rgba(177, 186, 215, 0.784);
+}
+
+#navigasi{
+    position:fixed;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-position: outside;
+    line-height: 30px;
+}
+
+#navigasi a {
+    display: block;
+    padding: 8px 16px;
+    background-color: rgba(204, 209, 230, 0.784);
+    color: black;
+    text-decoration: none;
+}
+
+#navigasi a:hover {
+    background-color: rgba(212, 218, 227, 0.689);
+}
+
+#navigasi li {
+    position: relative;
+    float: left;
+}
+
+#navigasi ul {
+    position: relative;
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+#navigasi li ul a {
+    width: 12em;
+    height: auto;
+    float: left;
+}
+
+#navigasi li:hover ul {
+    display: block;
+    height: auto;
+    width: 12cm;
+} 

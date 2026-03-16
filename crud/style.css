@@ -1,0 +1,14 @@
+body {
+    background: url(b69691c27a02c39fffe236d1ab3b46f6.jpg);
+    font-family: Verdana;
+    font-size: 15px;
+    background-size: cover;
+}
+
+.kotak_login{
+    width: 550px;
+    background: rgb(170, 61, 61);
+    margin: 250px auto;
+    padding: 30px 20px;
+    border-radius: 20px;
+}

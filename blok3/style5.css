@@ -1,0 +1,51 @@
+body {
+    background-image: url(belakang.gif);
+    background-size: cover;
+    font-family: 'Helvetica';
+    color: white;
+}
+
+.kotak_login{
+    width: 300px;
+    background: rgb(208, 165, 172);
+    margin: 150px auto;
+    padding: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px -10px rgb(0, 0, 0);
+}
+
+.sign-btn{
+    background-color: #c4b6bd;
+    padding: 10px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px -10px rgb(0, 0, 0);
+}
+
+.sign-btn:hover {
+    background-color: #ac8d9b;
+    padding: 10px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px -10px rgb(0, 0, 0);
+  }
+
+#navigasi{
+    
+    position:center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-position: outside;
+    line-height: 30px;
+}
+
+.form_login{
+    /*ngebuat lebar form nya penuh*/
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+

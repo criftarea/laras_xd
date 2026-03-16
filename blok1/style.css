@@ -1,0 +1,58 @@
+body {
+    font-family: Verdana;
+    font-size: 15px;
+    background: url(7c562b6a098e441208c709f27b4a8a0e.jpg);
+}
+
+.menu{
+    display: block;
+    height: 55px;
+    background-color: white
+}
+
+#navigasi{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-position: outside;
+    line-height: 30px;
+}
+
+#navigasi a {
+    display: block;
+    padding: 8px 16px;
+    background-color: white;
+    color: rgb(55, 55, 55);
+    text-decoration: none;
+}
+
+#navigasi a:hover {
+    background-color: rgb(167, 167, 167);
+}
+
+#navigasi li {
+    position: relative;
+    float: left;
+}
+
+#navigasi ul {
+    position: relative;
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+#navigasi li ul a {
+    width: 12em;
+    height: auto;
+    float: left;
+}
+
+#navigasi li:hover ul {
+    display: block;
+    height: auto;
+    width: 12cm;
+} 

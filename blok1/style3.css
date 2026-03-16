@@ -1,0 +1,110 @@
+body {
+    background: url(7c562b6a098e441208c709f27b4a8a0e.jpg);
+    font-family: Verdana;
+    font-size: 15px;
+}
+
+.tulisan_login {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.kotak_login{
+    width: 350px;
+    background: rgb(114, 104, 106);
+    margin: 80px auto;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+
+label{
+    font-size: 15px;
+}
+
+.form_login{
+    /*ngebuat lebar form nya penuh*/
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.tombol_login{
+    background: rgb(0, 0, 0);
+    color: white;
+    font-size: 12pt;
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+}
+
+.judul{
+    text-align: center;
+    font-family: Lucida;
+}
+
+.menu{
+    display: block;
+    height: 55px;
+    background-color: white
+}
+
+#navigasi{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-position: outside;
+    line-height: 30px;
+}
+
+#navigasi a {
+    display: block;
+    padding: 8px 16px;
+    background-color: white;
+    color: rgb(55, 55, 55);
+    text-decoration: none;
+}
+
+#navigasi a:hover {
+    background-color: rgb(167, 167, 167);
+}
+
+#navigasi li {
+    position: relative;
+    float: left;
+}
+
+#navigasi ul {
+    position: relative;
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+#navigasi li ul a {
+    width: 12em;
+    height: auto;
+    float: left;
+}
+
+#navigasi li:hover ul {
+    display: block;
+    height: auto;
+    width: 12cm;
+} 
+
+style{
+    width: center;
+    width: 350px max-content;
+    background: rgb(114, 104, 106);
+    margin: 80px center;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+
